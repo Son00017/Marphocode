@@ -1,0 +1,384 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec-Bold.woff2") format("woff2"),
+    url("../fonts/Sailec-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Sailec";
+  src: url("../fonts/Sailec-Medium.woff2") format("woff2"),
+    url("../fonts/Sailec-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Titillium Web";
+  src: url("../fonts/TitilliumWeb-Regular.woff2") format("woff2"),
+    url("../fonts/TitilliumWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #434a54;
+}
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-family: "Sailec";
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  padding: 28px 0;
+  padding-left: 75px;
+  padding-right: 65px;
+}
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* .logo-link {
+} */
+.site-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-item:not(:last-child) {
+  margin-right: 22px;
+}
+.site-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.25px;
+
+  color: rgba(102, 102, 102, 0.85);
+}
+.hero {
+  padding-left: 70px;
+}
+
+.hero-explor {
+  padding-top: 134px;
+}
+.hero-title {
+  font-family: "Sailec";
+  width: 522px;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.25px;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+.research {
+  padding: 30px 0;
+  padding-right: 127px;
+}
+
+.research-part {
+  margin-left: 25px;
+  padding-top: 161px;
+}
+.research-title {
+  font-family: "Sailec";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* or 121% */
+  margin-bottom: 15px;
+  letter-spacing: 0.25px;
+  padding-right: 70px;
+  color: #4a4a4a;
+}
+.research-desc {
+  margin-bottom: 28px;
+  padding-right: 50px;
+}
+.research-link {
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #1d6ff3;
+}
+.Learn {
+  padding-left: 70px;
+}
+/* 
+.Learn-part {
+  
+} */
+.Learn-title {
+  font-family: "Sailec";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 121% */
+  margin-bottom: 20px;
+  letter-spacing: 0.25px;
+
+  color: #4a4a4a;
+}
+.Learn-desc {
+  width: 500px;
+  margin-bottom: 59px;
+}
+.Learn-link {
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 160% */
+
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  color: #1d6ff3;
+}
+.blog {
+  padding: 50px 75px 80px 75px;
+}
+.blog-title {
+  font-family: "Sailec";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* or 121% */
+  margin-bottom: 12px;
+  letter-spacing: 0.25px;
+  margin-top: 30px;
+  color: #4a4a4a;
+}
+.blog-list {
+  padding-bottom: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.blog-item {
+  width: 330px;
+  position: relative;
+  margin-bottom: 219px;
+}
+
+.item-part {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 136px;
+  left: 25px;
+  padding: 20px 23px 13px 20px;
+}
+.part-title {
+  font-family: "Sailec";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 130% */
+  margin-bottom: 4px;
+  letter-spacing: 0.25px;
+
+  color: #4a4a4a;
+}
+.part-desc {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 160% */
+
+  color: #434a54;
+}
+.line {
+  width: 30px;
+  margin-bottom: 9px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+.flex {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+button {
+  border: none;
+  outline: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+.start {
+  padding: 30px 60px;
+  background: #eeeeee;
+}
+.start-blog {
+  padding: 50px 15px;
+}
+.blog-title {
+  font-family: "Sailec";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 121% */
+  margin-bottom: 18px;
+  letter-spacing: 0.25px;
+
+  color: #4a4a4a;
+}
+.blog-desc {
+  width: 463px;
+}
+form {
+  padding: 0 60px;
+  padding: 53px;
+}
+.label {
+  background: #ffffff;
+  width: 420px;
+  border: 1px solid #979797;
+  /* padding-left: 5px;
+  padding-top: 2px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0px 4px 4px 0px;
+}
+.text {
+  width: 300px;
+  height: 38px;
+}
+.btn {
+  height: 42px;
+  background: #1d6ff3;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 0px 4px 4px 0px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 44px;
+  /* identical to box height, or 242% */
+  padding: 0 23px;
+  letter-spacing: 0.25px;
+
+  color: #ffffff;
+}
+footer {
+  padding: 50px 60px;
+}
+.link-of-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15px;
+}
+.academy-list {
+  width: 240px;
+}
+.academy-list:not(:last-child) {
+  margin-right: 30px;
+}
+.academy-title {
+  font-family: "Sailec";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+  color: #4a4a4a;
+}
+.academy-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.academy-link {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.25px;
+
+  color: #637280;
+}
+a:hover {
+  color: #1d6ff3;
+}
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 9px;
+}
